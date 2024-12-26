@@ -11,4 +11,8 @@ He plans on using answers from these questions to help him decide whether he sho
 
 Danny has provided you with a sample of his overall customer data due to privacy issues - but he hopes that these examples are enough for you to write fully functioning SQL queries to help him answer his questions!
 
-Below are the key datasets for this study:
+Below are the key datasets for this study 
+
+* [Sales](https://github.com/Rabulala7/Danny-s-Dinner-SQL-challenge/blob/main/datasets/Sales.csv)
+* [Menu](https://github.com/Rabulala7/Danny-s-Dinner-SQL-challenge/blob/main/datasets/Menu.csv)
+* [Members](https://github.com/Rabulala7/Danny-s-Dinner-SQL-challenge/blob/main/datasets/Members.csv)
