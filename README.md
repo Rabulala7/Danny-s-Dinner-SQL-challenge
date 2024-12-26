@@ -30,6 +30,7 @@ Below are the key datasets for this study
 
 
 
+![Q1](https://github.com/user-attachments/assets/81d02022-d56d-4e0e-909b-006cd8174315)
 
 
 # 2. How many days has each customer visited the restaurant?
@@ -41,6 +42,7 @@ Below are the key datasets for this study
     GROUP BY customer_id
 
 
+![Q2](https://github.com/user-attachments/assets/c44fe641-6645-407c-acf9-c0f163c32256)
 
 # 3. What was the first item from the menu purchased by each customer?
 
@@ -54,6 +56,7 @@ Below are the key datasets for this study
     ORDER BY order_date
 
 
+![Q3](https://github.com/user-attachments/assets/1a5dd1d6-230b-4183-834d-d65fa9e28a24)
 
 # 4. What is the most purchased item on the menu and how many times was it purchased by all customers?
 
@@ -68,6 +71,7 @@ Below are the key datasets for this study
     ORDER BY purchase_count DESC
     LIMIT 1
 
+![Q4](https://github.com/user-attachments/assets/bfc3bd36-d21f-404b-a0ef-735adb07ca71)
 
 # 5. Which item was the most popular for each customer?
 
@@ -84,6 +88,7 @@ Below are the key datasets for this study
     LIMIT 3
 
 
+![Q5](https://github.com/user-attachments/assets/0620e44e-c8af-4a5e-9632-8e3c1d673b8b)
 
 # 6. Which item was purchased first by the customer after they became a member?
 
@@ -100,6 +105,7 @@ Below are the key datasets for this study
         AND s.customer_id = mem.customer_id
     ORDER BY order_date, s.customer_id DESC
 
+![Q6](https://github.com/user-attachments/assets/2750f153-d149-42d4-8f2d-581bda4f99c5)
 
 # 7. Which item was purchased just before the customer became a member?
 
@@ -117,6 +123,7 @@ Below are the key datasets for this study
     ORDER BY order_date DESC, s.customer_id DESC
 
 
+![Q7](https://github.com/user-attachments/assets/30eda5c4-bdbb-4932-93ad-b6235705341a)
 
 # 8. What is the total items and amount spent for each member before they became a member?
 
@@ -134,5 +141,6 @@ Below are the key datasets for this study
     ORDER BY s.customer_id DESC
 
 
+![Q8](https://github.com/user-attachments/assets/11c95649-0cee-43fa-8ec0-f8070e74bae5)
 
 
